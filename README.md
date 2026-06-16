@@ -1,16 +1,67 @@
-# React + Vite
+# Expense Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Expense Management System built using React.js, Context API, Tailwind CSS, and LocalStorage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add Expense
+* Update Expense
+* Delete Expense
+* Income Tracking
+* Expense Tracking
+* Total Balance Calculation
+* LocalStorage Data Persistence
+* Responsive User Interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* Context API
+* Tailwind CSS
+* LocalStorage
+* SweetAlert2
+* Headless UI
+* Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ ├── AddExpense.jsx
+│ ├── AllExpense.jsx
+│ ├── ExpenseCard.jsx
+│ ├── ListExpense.jsx
+│ ├── Navbar.jsx
+│ └── UpdateExpense.jsx
+├── context/
+│ └── mainContextApi.jsx
+├── App.jsx
+└── main.jsx
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/sayli-takale/expense-management-system.git
+
+Install dependencies:
+
+npm install
+
+Run the project:
+
+npm run dev
+
+## Future Enhancements
+
+* Search Expenses
+* Filter by Category
+* Export to PDF
+* Export to Excel
+* Dark Mode
+* Charts and Analytics
+
+## Author
+
+Sayli Takale
